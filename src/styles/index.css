@@ -9,3 +9,64 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+#app {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trafficTop{
+    background-color: black;
+    width: 10px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.light {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  opacity: 0.5; /* luces apagadas por defecto */
+  cursor: pointer;
+}
+
+.red{
+    width: 90px;
+    height: 90px;
+    background-color: #F50F00;
+    border-radius: 45px;
+    display: block;
+    margin: 10px auto; 
+   
+  
+}
+.yellow{
+    width: 90px;
+    height: 90px;
+    background-color: #F5D800;
+    border-radius: 45px;
+    display: block;
+    margin: 10px auto; 
+}
+.green{
+     width: 90px;
+    height: 90px;
+    background-color: #07F265;
+    border-radius: 45px;
+    display: block;
+    margin: 10px auto; 
+   
+    
+}
+.active {
+  box-shadow: 0 0 40px 10px white;
+  opacity: 1;
+}
